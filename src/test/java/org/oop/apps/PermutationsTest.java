@@ -22,7 +22,7 @@ class PermutationsTest {
 
     @Test
     void permsTest() {
-        Integer[][] name = {{1, 2, 3}, {1, 3, 2}, {2, 1, 3}, {2, 3, 1}, {3, 1, 2}, {3, 2, 1}};
+        Integer[][] name = {{1, 2, 3}, {2, 1, 3}, {2, 3, 1}, {1, 3, 2}, {3, 1, 2}, {3, 2, 1}};
         List<Integer> name1 = new ArrayList<>();
         name1.add(1);
         name1.add(2);
